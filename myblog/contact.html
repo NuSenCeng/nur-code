@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NuSenCeng's Code</title>
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="wrapper target">
+      <div class="left target">
+     <a href="https://www.instagram.com/krks_ns_14/profilecard/?igsh=bmFtZzg4ZTloZ2s3"> <i class="fa-brands fa-square-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/nursena-karaka%C5%9F-6020a6325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">  <i class="fa-brands fa-linkedin"></i> </a>
+      <a href="https://x.com/nusenceng?s=09" target="_blank"> <i class="fa-brands fa-square-x-twitter"></i></a>
+      <a href="https://open.spotify.com/user/o2mjkudjjzdqcq81gy2nj52mj?si=tgFRXFYnR7WrDJQ5hGh86A" target="_blank"> <i class="fa-brands fa-spotify" ></i></a>
+      
+        
+      </div>
+      <div class="center target">
+        <a href="/index.html">ANASAYFA</a>
+        <a href="/about.html">HAKKIMDA</a>
+        <a href="/contact.html">İLETİŞİM FORMU</a>
+      </div>
+      <div class="right">
+        <span>
+          <img src="images/PP.jpg" >
+        </span>
+        <div class="searchengine"><input type="text">
+
+          <i class="fa-solid fa-magnifying-glass" id="searchicon"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  
+  <div class="contact">
+    <div class="wrapper">
+      <h1>İLETİŞİM FORMU</h1><br><br>
+        <div class="contactform">
+          
+           <form onsubmit="emailSend(); reset(); return false;"> <div>İsminiz:
+            <input type="text" placeholder="Name" id="name" required></div><br>
+            <div>Soyİsminiz:
+            <input type="text" placeholder="Surname" id="surname" name="surname" required></div><br>
+                
+<div>E-mail Adresiniz:<input type="email" placeholder="E-mail Address" id="email" name="email" required></div><br>
+<div>Cinsiyetiniz <br> <br>
+    Kadın <input type="radio" name="cinsiyet" id="female" required><br>
+    Erkek <input type="radio" name="cinsiyet" id="male" required><br>
+    Belirtmek İstemiyorum <input type="radio" name="cinsiyet" id="no" required>
+</div><br>
+<div>
+   Konu: <input type="text" name="subject" id="subject" placeholder="Subject of the Message" required>
+</div> <br>
+<textarea name="message" id="messagearea" placeholder="İleti" cols="70" rows="10"></textarea>
+<div>
+    <button type="submit" class="btn">Gönder</button>
+    <button type="reset" class="btn">Temizle</button>
+</div>
+</form>
+
+
+
+
+        </div>
+      
+  <script src="scroll.js"></script>
+  <script src="search.js"></script>
+  <script src="contact.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+</body>
+
+</html>

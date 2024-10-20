@@ -1,0 +1,57 @@
+.contact .wrapper .contactform{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    background-color:#efefef;
+    
+}
+.contact .wrapper .contactform{
+    display: flex  
+}
+h1{
+    font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  background-color:#efefef;
+  position: absolute;
+}
+.contact .wrapper .contactform div{
+    font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal
+
+}
+.contact .wrapper .contactform input,textarea{
+    font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  outline: none;
+  
+}
+.contact .wrapper .contactform button{
+  padding: 5px;
+  margin-left: 30px;
+  margin-right: 250px;
+  border-radius: 5px;
+  background-color: #a2bea1;
+}
+.contact .wrapper .contactform button:hover{
+  background-color: #2c3a40;
+  color: white;
+}
+.btn{
+border: none !important;
+cursor: pointer;
+margin: 15px 0px;
+}
+
+
+
+
+
+

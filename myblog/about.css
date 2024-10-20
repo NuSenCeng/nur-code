@@ -1,0 +1,51 @@
+.about .wrapper{
+  width: 100%;  
+  max-width: 1366px;
+  margin: 50px;
+  pad: 10px;
+  border: 1px solid rgba(0, 0,0, 0.2);
+  border-radius: 15px;
+  display: flex;
+}
+.about{
+    padding: 20px 20px;
+}
+
+.about .wrapper .metin{
+  flex: 1;
+}
+.about .wrapper .photo{
+  flex: 1;
+}
+.about .wrapper .metin h1{
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  padding: 10px;
+  margin: 20px;
+}
+.about .wrapper .metin p{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;}
+  .about img{
+    border-radius: 15px;
+  }
+.about div{
+  margin: 20px;
+  padding: 10px;
+  user-select: none;
+}
+span {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+li {font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal
+
+}

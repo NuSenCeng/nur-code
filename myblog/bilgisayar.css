@@ -1,0 +1,83 @@
+.posts {    
+    height: 30px;
+    background-color: #efefef;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.posts .post {
+    width: 40%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}   
+@media(max-width:3000px){
+    .posts .post {
+        width: 100%;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }   
+}
+
+.posts h1 {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    user-select: none;
+}
+
+.posts p {
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    padding: 5px;
+    line-height: 23px;
+    user-select: none;
+}
+
+.posts span {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    user-select: none;
+}
+
+.posts img {
+    padding: 5px;
+    border-radius: 15px;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 5px;
+    user-select: none;
+}
+.posts .authorAndDate{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    user-select: none;
+}
+.posts .authorAndDate span:nth-child(2){
+    justify-content: left;
+}
+.posts .post {
+   transform: translateX(-20px);
+   opacity: 0;
+   transition: 1s;
+}   
+.posts .post.active {
+    transform: translateX(0px);
+    opacity: 1;
+ }  
